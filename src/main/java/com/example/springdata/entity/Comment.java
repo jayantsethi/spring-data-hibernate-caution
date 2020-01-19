@@ -6,6 +6,6 @@ import javax.persistence.Id;
 @Entity
 public class Comment {
     @Id
-    private int id;
+    private Integer id;
     private String content;
 }

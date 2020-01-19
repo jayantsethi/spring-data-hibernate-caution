@@ -8,7 +8,7 @@ import java.util.List;
 @Entity
 public class Post {
     @Id
-    private int id;
+    private Integer id;
     private String content;
     @OneToMany
     private List<Comment> comments;

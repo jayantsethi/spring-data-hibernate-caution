@@ -36,4 +36,8 @@ public class PostService {
         postRepository.save(post);
     }
 
+    public Iterable<Post> fetchPostsWtthComments() {
+        return postRepository.findAll();
+    }
+
 }

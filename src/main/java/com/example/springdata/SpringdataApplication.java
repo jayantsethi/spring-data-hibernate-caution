@@ -21,6 +21,7 @@ public class SpringdataApplication {
 	private void init() {
 		PostService postService = new PostService(postRepository);
 		postService.savePostsWithComments();
+		postService.fetchPostsWtthComments();
 	}
 
 }
